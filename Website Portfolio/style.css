@@ -133,11 +133,20 @@ h2 {
   height: 50%;
 }
 #tt-photo {
-  position: relative;
+  position: absolute;
   width: 500px;
   left: 26%;
-  top: 725px;
+  top: 750px;
   padding: 20px;
+}
+
+#cooking {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 55%;
+  padding: 20px;
+  top: 750px;
 }
 .title-aboutme {
   position: absolute;
