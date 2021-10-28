@@ -1,0 +1,323 @@
+/* 1rem = 16px */
+body {
+  background-color: #fef1e6;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-family: "Kalam", cursive;
+  font-size: 5rem;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+}
+
+/* index.html */
+.top-container {
+  text-align: center;
+  position: relative;
+  background-color: #a2d2ff;
+  margin: 0px;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+}
+
+.summary {
+  font-weight: bold;
+}
+.middle-container {
+  position: relative;
+  padding-top: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.aboutme-image {
+  width: 75px;
+  position: absolute;
+  left: 41%;
+}
+
+.contactme-image {
+  width: 75px;
+  position: absolute;
+  left: 55.75%;
+  bottom: 175px;
+}
+
+.projects-image {
+  width: 75px;
+  position: absolute;
+  left: 41.5%;
+  bottom: 8%;
+}
+
+.skills-image {
+  width: 75px;
+  position: absolute;
+  left: 53%;
+  bottom: -20px;
+}
+
+.jamesmenu-photo {
+  height: 25rem;
+  position: relative;
+}
+
+.tabs {
+  text-decoration: none;
+}
+
+.welcome {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 90px;
+}
+
+.bottom-container {
+  text-align: center;
+}
+
+.tree1 {
+  text-align: center;
+  position: relative;
+  width: 25rem;
+}
+
+.sun {
+  width: 18.75rem;
+  position: fixed;
+  left: 20%;
+  bottom: 60%;
+}
+
+.cloud {
+  width: 18.75rem;
+  position: fixed;
+  right: 15%;
+  top: 40%;
+}
+
+.james-photo {
+  height: 25rem;
+}
+
+.tabs {
+  font-size: 35px;
+}
+/* index.html */
+
+/* aboutme.html */
+
+.aboutme-topcontainer {
+  position: absolute;
+  background-color: #a2d2ff;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+  height: 50%;
+}
+#tt-photo {
+  position: relative;
+  width: 500px;
+  left: 26%;
+  top: 725px;
+  padding: 20px;
+}
+.title-aboutme {
+  position: absolute;
+  left: 27%;
+  bottom: 0px;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+
+.aboutmejames-photo {
+  height: 25rem;
+  position: absolute;
+  left: 4.6875rem;
+}
+
+.heading-aboutme {
+  position: relative;
+  left: 2.5%;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutme-list {
+  position: absolute;
+  top: 100%;
+  left: 26%;
+  right: 30%;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+/* 
+.cooking {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  position: relative;
+  top: 800px;
+  left: 50%;
+} */
+
+/* aboutme.html */
+
+/* contactme.html */
+.contactme-topcontainer {
+  position: absolute;
+  left: 0%;
+  background-color: #a2d2ff;
+  margin: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.contactmejames-photo {
+  height: 25rem;
+  position: absolute;
+  left: 60px;
+}
+
+.title-contactme {
+  position: absolute;
+  left: 27%;
+  bottom: 0px;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  width: 50%;
+}
+
+.contactme-list {
+  position: absolute;
+  top: 102%;
+  left: 26%;
+  right: 30%;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.heading-contactme {
+  position: relative;
+  left: 2.5%;
+}
+
+.emailme {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+/* contactme.html */
+
+/* projects.html */
+
+.projects-topcontainer {
+  position: absolute;
+  left: 0%;
+  background-color: #a2d2ff;
+  margin: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.title-projects {
+  position: absolute;
+  left: 27%;
+  bottom: 0px;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  width: 50%;
+}
+
+.projectsjames-photo {
+  height: 25rem;
+  position: absolute;
+  left: 50px;
+}
+
+.heading-projects {
+  position: relative;
+  left: 2.5%;
+}
+
+.description-projects {
+  position: absolute;
+  top: 100%;
+  left: 27%;
+  right: 20%;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 60px;
+}
+/* projects.html */
+
+/* skills.html  */
+
+.skills-topcontainer {
+  position: absolute;
+  left: 0%;
+  background-color: #a2d2ff;
+  margin: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.title-skills {
+  position: absolute;
+  left: 27%;
+  bottom: 0px;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.skillsjames-photo {
+  height: 25rem;
+  position: absolute;
+  left: 60px;
+}
+
+.heading-skills {
+  position: relative;
+  left: 2.5%;
+}
+
+.giphy-embed {
+  position: absolute;
+  width: 300px;
+  left: 58%;
+  top: 100px;
+}
+
+.description-skills {
+  position: absolute;
+  line-height: 60px;
+  top: 100%;
+  left: 27%;
+  right: 20%;
+  font-size: 20px;
+}
+
+/* skills.html */
